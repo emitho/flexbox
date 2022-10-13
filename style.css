@@ -60,10 +60,22 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  flex-direction:row-reverse;
+  flex-direction:row;
 }
 .photo-grid-item {
   border: 1px solid #fff;
   width: 300px;
   height: 300px;
+}
+.first-item {
+  order: 1;
+}
+.last-item {
+  order: -1;
+}
+
+.subscribe,
+.social {
+  align-self: flex-end;
+  margin-bottom: 20px;
 }
